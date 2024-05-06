@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rahul Duhan</title>
+    <link rel="icon" type="image/x-icon" href="images\favicon.ico" />
+    <link rel="stylesheet" href="css\font-awesome.css" />
+    <link rel="stylesheet" href="css\style.css" />
+  </head>
+
+  <body>
+    <!-- Page Loader Start -->
+    <div class="page-loader">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <!-- Page Loader End -->
+
+    <!-- Background Circles Start-->
+    <div class="bg-circles">
+      <div class="circle-1"></div>
+      <div class="circle-2" id="heart"></div>
+      <div class="circle-3"></div>
+      <div class="circle-4"></div>
+    </div>
+
+    <!-- Background Circles End-->
+
+    <!-- Overlay Start -->
+    <div class="overlay"></div>
+    <!-- Overlay End -->
+
+    <!-- Main Start -->
+    <div class="main hidden">
+      <!-- Header Start -->
+
+      <header class="header">
+        <div class="container">
+          <div class="row flex-end">
+            <button type="button" class="nav-toggler">
+              <span></span>
+            </button>
+            <nav class="nav">
+              <div class="nav-inner">
+                <ul>
+                  <li><a href="#home" class="nav-item link-item">home</a></li>
+                  <li><a href="#about" class="nav-item link-item">about</a></li>
+                  <li>
+                    <a href="#portfolio" class="nav-item link-item">projects</a>
+                  </li>
+                  <li>
+                    <a href="#contact" class="nav-item link-item">contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <!-- Header End -->
+
+      <!-- Home Section Start -->
+      <section class="home-section align-item-center" id="home">
+        <div class="container">
+          <div class="row align-item-center">
+            <div class="home-text">
+              <p>Hello, I'm</p>
+              <h1>Rahul Duhan</h1>
+              <h2>frontend web developer</h2>
+              <a href="#about" class="btn link-item">more about me</a>
+              <a href="#portfolio" class="btn link-item">projects</a>
+            </div>
+            <div class="home-img">
+              <div class="img-box">
+                <img src="images\home.png" alt="profile_img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Home Section End -->
+
+      <!-- About Section Start -->
+
+      <section class="about-section sec-padding" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>about me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-img">
+              <div class="img-box">
+                <img src="images\cod-ing.png" alt="about img" />
+              </div>
+            </div>
+            <div class="about-text">
+              <p>
+                I describe myself as a passionate developer who loves coding ❤️.
+                Incorporated for Growing, Enthusiastic for Development.
+              </p>
+
+              <h3>skills</h3>
+              <div class="skills">
+                <div class="skill-item">HTML</div>
+                <div class="skill-item">CSS</div>
+                <div class="skill-item">JavaScript</div>
+                <div class="skill-item">ReactJS</div>
+                <div class="skill-item">Redux</div>
+                <div class="skill-item">Bootstrap</div>
+                <div class="skill-item">Node Js</div>
+                <div class="skill-item">Express</div>
+                <div class="skill-item">MongoDB</div>
+              </div>
+
+              <div class="about-tabs">
+                <button
+                  type="button"
+                  class="tab-item active"
+                  data-target="#education"
+                >
+                  education
+                </button>
+                <button
+                  type="button"
+                  class="tab-item"
+                  data-target="#experience"
+                >
+                  experience
+                </button>
+              </div>
+
+              <!-- Education Start -->
+              <div class="tab-content active" id="education">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">2014-2018</span>
+                    <h4>bachelor of technology<span>(74%)</span></h4>
+                    <p>NPTI, Delhi</p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">2013-2014</span>
+                    <h4>Intermediate</h4>
+                    <p>Arwachin Bharti Bhawan Sr. Sec. School, Delhi</p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">2011-2012</span>
+                    <h4>High School</h4>
+                    <p>Arwachin Bharti Bhawan Sr. Sec. School, Delhi</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Education End -->
+
+              <!-- Experience Start -->
+
+              <div class="tab-content" id="experience">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">03/2023-present</span>
+                    <h4>Software Engineer <span></span></h4>
+                    <p>Genesis Infocom</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Experience End -->
+
+              <a
+                href="RahulResume(Front-End-Developer).pdf"
+                target="_blank"
+                class="btn"
+                >download resume</a
+              >
+              <a href="#contact" class="btn link-item">contact me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section End -->
+
+      <!-- Portfolio Section Start -->
+
+      <section class="portfolio-section sec-padding" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>recent work</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- portfolio item start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="images\portfolio\1.png"
+                  alt="portfolio-item-thumbnail"
+                />
+              </div>
+              <h3 class="portfolio-item-title">vacation destination website</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    A responsive website that allows users to explore and
+                    discover various listings for accommodations, sign up as
+                    hosts or guests, and leave reviews based on their
+                    experiences.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>
+                      Technologies used -
+                      <span
+                        >JavaScript, Node Js, Express, MongoDB, Bootstrap</span
+                      >
+                    </li>
+                    <!-- <li>
+                      View Online -
+                      <span
+                        ><a href="#" target="_blank">www.domain.com</a></span
+                      >
+                    </li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio item end -->
+
+            <!-- portfolio item start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="images\portfolio\2.png"
+                  alt="portfolio-item-thumbnail"
+                />
+              </div>
+              <h3 class="portfolio-item-title">personal portfolio website</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    A personal portfolio website showing education, experience
+                    and information related to the person
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>
+                      Technologies used - <span>Html, Css, JS, Bootstrap</span>
+                    </li>
+                    <!-- <li>Role - <span>frontend</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a href="#" target="_blank">www.domain.com</a></span
+                      >
+                    </li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio item end -->
+
+            <!-- portfolio item start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="images\portfolio\3.png"
+                  alt="portfolio-item-thumbnail"
+                />
+              </div>
+              <h3 class="portfolio-item-title">Movie search website</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    a responsive web app which shows movies and TV shows details
+                    including ratings, genre, category and year of release along
+                    with various other features
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Technologies used - <span>React, Redux, SCSS</span></li>
+                    <!-- <li>Role - <span>frontend</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a href="#" target="_blank">www.domain.com</a></span
+                      >
+                    </li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio item end -->
+
+            <!-- portfolio item start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="images\portfolio\4.png"
+                  alt="portfolio-item-thumbnail"
+                />
+              </div>
+              <h3 class="portfolio-item-title">restaurant website</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    A Zomato website clone that shows content related to food
+                    items, top brands and hotels and restaurants nearby based on
+                    ratings.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Technologies used - <span>React Js</span></li>
+                    <!-- <li>Role - <span>frontend</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a href="#" target="_blank">www.domain.com</a></span
+                      >
+                    </li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio item end -->
+
+            <!-- portfolio item start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="images\portfolio\5.png"
+                  alt="portfolio-item-thumbnail"
+                />
+              </div>
+              <h3 class="portfolio-item-title">e-commerce webiste</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    A myntra shopping website clone which shows product listings
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>
+                      Technologies used -
+                      <span
+                        >React, Redux-toolkit, React-Router, Bootstrap, Node
+                        Js</span
+                      >
+                    </li>
+                    <!-- <li>
+                      View Online -
+                      <span
+                        ><a href="#" target="_blank">www.domain.com</a></span
+                      >
+                    </li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio item end -->
+
+            <!-- portfolio item start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="images\portfolio\6.png"
+                  alt="portfolio-item-thumbnail"
+                />
+              </div>
+              <h3 class="portfolio-item-title">weather website</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    a weather website which shows current
+                    temperature, humidity and wind speed based on location
+                    provided.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>
+                      Technologies used - <span>Reacts Js</span>
+                    </li>
+                    <!-- <li>
+                      View Online -
+                      <span
+                        ><a href="#" target="_blank">www.domain.com</a></span
+                      >
+                    </li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio item end -->
+
+            <!-- portfolio item start -->
+            <div class="portfolio-item">
+                <div class="portfolio-item-thumbnail">
+                  <img
+                    src="images\portfolio\7.png"
+                    alt="portfolio-item-thumbnail"
+                  />
+                </div>
+                <h3 class="portfolio-item-title">music streaming website</h3>
+                <button type="button" class="btn view-project-btn">
+                  view project
+                </button>
+                <div class="portfolio-item-details">
+                  <div class="description">
+                    <p>
+                      A music streaming website clone of Spotify
+                    </p>
+                  </div>
+                  <div class="general-info">
+                    <ul>
+                      <li>
+                        Technologies used - <span>Html, Css</span>
+                      </li>
+                      <!-- <li>
+                        View Online -
+                        <span
+                          ><a href="#" target="_blank">www.domain.com</a></span
+                        >
+                      </li> -->
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- portfolio item end -->
+          </div>
+        </div>
+      </section>
+      <!-- Portfolio Section End -->
+
+      <!-- Contact Section Start -->
+      <section class="contact-section sec-padding" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>contact me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="contact-form">
+              <form>
+                <div class="row">
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      placeholder="Name"
+                      class="input-control"
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      placeholder="Email"
+                      class="input-control"
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      placeholder="Subject"
+                      class="input-control"
+                    />
+                  </div>
+                  <div class="input-group">
+                    <textarea
+                      placeholder="Message"
+                      class="input-control"
+                      required
+                    ></textarea>
+                  </div>
+
+                  <div class="submit-btn">
+                    <button type="submit" class="btn">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <h3>Email</h3>
+                <a href="mailto:ergauravprakash@gmail.com?body=Hi%20Gaurav,">
+                  <p>rahulnduhan@gmail.com</p>
+                </a>
+              </div>
+              <div class="contact-info-item">
+                <h3>Phone (click to call)</h3>
+                <a href="tel:9650473503">
+                  <p>+91 9650473503</p>
+                </a>
+              </div>
+              <div class="contact-info-item">
+                <h3>contact me</h3>
+                <div class="social-links">
+                  <a
+                    href="https://api.whatsapp.com/send?phone=9650473503"
+                    target="_blank"
+                    ><i class="fab fa-whatsapp"></i
+                  ></a>
+                  <a href="https://github.com/RahulDuhan17" target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact Section End -->
+    </div>
+    <!-- Main End -->
+
+    <!-- Portfolio Item Details Popup Start -->
+
+    <div class="portfolio-popup">
+      <div class="pp-inner">
+        <div class="pp-content">
+          <div class="pp-header">
+            <button type="button" class="btn pp-close">
+              <i class="fas fa-times"></i>
+            </button>
+            <div class="pp-thumbnail">
+              <img src="images\portfolio\3.jpg" alt="pp-thumbnail" />
+            </div>
+            <h3></h3>
+          </div>
+          <div class="pp-body">
+            <div class="description">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem,
+                aliquam!
+              </p>
+            </div>
+            <div class="general-info">
+              <ul>
+                <li>Created - <span>4 june 2021</span></li>
+                <li>Technologies used - <span>Html, Css, Bootstrap</span></li>
+                <li>Role - <span>frontend</span></li>
+                <li>
+                  View Online -
+                  <span><a href="#" target="_blank">www.domain.com</a></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Item Details Popup End -->
+
+    <script src="js\app.js"></script>
+  </body>
+</html>
